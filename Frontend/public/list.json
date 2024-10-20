@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "genre": "Leadership",
+    "title": "Online Yoga Classes",
+    "Hosted by": "Yoga Meetup by Atravyaah",
+    "price": 0,
+    "category": "Free",
+    "image": "/images/bookimg2.jpg",
+    "date": "Wed, Jul 3 • 6:00 AM IST",
+    "status": "confirmed"
+  },
+  {
+    "id": 2,
+    "genre": "Story",
+    "title": "Online Yoga Classes",
+    "Hosted by": "Yoga Meetup by Atravyaah",
+    "price": 0,
+    "category": "biography",
+    "image": "/images/bookimg2.jpg",
+  
+    "date": "Wed, Jul 3 • 6:00 AM IST",
+    "status": "confirmed"
+  },
+  {
+    "id": 3,
+    "genre": "Psychology",
+    "title": "Online Yoga Classes",
+    "Hosted by": "Yoga Meetup by Atravyaah",
+    "price": 0,
+    "category": "Free",
+    "image": "/images/bookimg2.jpg",
+    "date": "Wed, Jul 3 • 6:00 AM IST",
+    "status": "confirmed"
+  },
+  {
+    "id": 4,
+    "genre": "Decision-making",
+    "title": "Online Yoga Classesm",
+    "Hosted by": "Yoga Meetup by Atravyaah",
+    "price": 0,
+    "category": "Free",
+    "image": "/images/bookimg2.jpg",
+    "date": "Wed, Jul 3 • 6:00 AM IST",
+    "status": "confirmed"
+  }
+]
