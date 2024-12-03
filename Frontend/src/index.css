@@ -7,16 +7,16 @@
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 200vh;
+  min-height: 100vh; /* Change to 100vh for proper height behavior */
 }
 
-body,
-html {
-  width: 100%; /* Change to 100% */
-  height: auto; /* Change to auto to avoid overflow */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures body fills the height */
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden; 
-  overflow-y: auto; /* Keep the overflow for y-axis */
+  overflow-x: hidden; /* Avoid horizontal overflow */
 }
 
 /* Navbar container* perfect styling */
@@ -43,26 +43,21 @@ html {
 }
 
 .content-container {
-  width: 100%;
-  max-width: 1100px;
+  flex: 1; /* Make the content take up remaining space */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: calc(100vh - 64px - 569px); /* Adjust heights as necessary */
-  padding: 20px;           /* Optional padding */
+  justify-content: center; /* Adjust based on your design */
+  padding: 20px; /* Adjust padding for spacing */
+  margin-top: 12px;
 }
 
 /* Footer styles */
 footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
   width: 100%;
-  z-index: 10;
-  margin-top: auto;
-  padding-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: auto; /* Ensures footer is pushed to the bottom */
 }
 
 .banner-container {
@@ -141,5 +136,17 @@ footer {
 @media (max-width: 1022px) {
   .search-margin-bottom {
     margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .meetup-banner-container {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .meetup-banner-container {
+    display: none; /* Hide the banner on larger screens */
   }
 }
