@@ -59,11 +59,11 @@ CrowdCatch/
 Coming soon...
 
 ## 📌 Future Enhancements
-🔍 Event search and filtering
-🧠 AI-based event recommendations
-📥 Email reminders for registered events
-🎫 RSVP and ticketing system
-🧑‍💼 Admin dashboard for event moderation
+- **🔍 Event search and filtering**
+- **🧠 AI-based event recommendations**
+- **📥 Email reminders for registered events**
+- **🎫 RSVP and ticketing system**
+- **🧑‍💼 Admin dashboard for event moderation**
 
 ## 🤝 Contributing
 Pull requests are welcome!
